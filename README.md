@@ -13,9 +13,10 @@ In that directory, do the following steps:
 4) open the api link http://localhost:3000/computerinfo at your browser (or run the ps1).
 
 
-The /computerinfo endpoint is part of the API exposed by the server (whose source file is server.js). When a client makes an HTTP GET request to http://localhost:3000/computerinfo, the server receives the request, executes the VBScript code to retrieve the computer information, and sends back (to your broser or the ps1 script) the response in JSON format.
+The /computerinfo endpoint is part of the API exposed by the server (whose source file is server.js). When a client makes an HTTP GET request to http://localhost:3000/computerinfo, the server receives the request, executes the VBScript code to retrieve the computer information, and sends back (to your browser or the ps1 script) the response in JSON format.
 
 .....................
+
 OBSERVATIONS
 
 If, when run the ps1 script, you get the error similar to
@@ -23,7 +24,9 @@ If, when run the ps1 script, you get the error similar to
     + CategoryInfo          : ErrodeSegurança: (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
 
-This links can help, but anticipating, you run these two commands and will run:
+That's because the system does not authorize the operation. Solution:
+
+Follow link can help. But anticipating, you ca run these two commands and will run:
 
 1) Get-ExecutionPolicy (the result probably will be Restricted)
 
