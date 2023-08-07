@@ -17,9 +17,9 @@ The /computerinfo endpoint is part of the API exposed by the server (whose sourc
 
 .....................
 
-OBSERVATIONS
+NOTES
 
-If, when run the ps1 script, you get the error similar to
+If (when running the ps1 script) you encounter an error similar to
 
     + CategoryInfo          : ErrodeSegurança: (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
