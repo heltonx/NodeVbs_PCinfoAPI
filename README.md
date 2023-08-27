@@ -10,7 +10,7 @@ In that directory, do the following steps:
 
 3) node server.js  (run this command to start the API server)
 
-4) open the api link http://localhost:3000/computerinfo at your browser (or run the ps1).
+4) open the api link http://localhost:3000/computerinfo/ at your browser (or run the ps1).
 
 
 The /computerinfo endpoint is part of the API exposed by the server (whose source file is server.js). When a client makes an HTTP GET request to http://localhost:3000/computerinfo, the server receives the request, executes the VBScript code to retrieve the computer information, and sends back (to your browser or the ps1 script) the response in JSON format.
