@@ -4,11 +4,11 @@ The vbscript and the node.js file must be at the same directorty (As the powersh
 
 In that directory, do the following steps:
 
-1) npm init -y (Initialize a new Node.js project)
+1) npm init -y (Initialize a new Node.js project);
 
-2) npm install express (Install the Express.js package)
+2) npm install express (Install the Express.js package);
 
-3) node server.js  (run this command to start the API server)
+3) node server.js  (run this command to start the API server);
 
 4) open the api link http://localhost:3000/computerinfo/ at your browser (or run the ps1).
 
