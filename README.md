@@ -1,6 +1,6 @@
 # VBS-NodeJs-PCinfo-API
 
-The vbscript and the node.js file must be at the same directorty (As the powershell script just consumes the API exposed, it can be located in any place).
+The vbscript and the node.js file must be at the same directorty (As the powershell script just consumes the API exposed, it can be anywhere in the machine).
 
 In that directory, do the following steps:
 
