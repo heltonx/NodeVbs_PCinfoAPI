@@ -1,3 +1,5 @@
+last test: 02 January 2024 - ps script not worked 
+
 # VBS-NodeJs-PCinfo-API
 
 The vbscript and the node.js file must be at the same directorty (As the powershell script just consumes the API exposed, it can be anywhere in the machine).
